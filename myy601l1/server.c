@@ -198,8 +198,7 @@ void process_request(const int socket_fd) {
 }
 
 
-void onemoreRequest(struct stacknode node)
-{
+void onemoreRequest(struct stacknode node){
     float sec, sec2;
     float usec, usec2;
     
